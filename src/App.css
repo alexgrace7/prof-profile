@@ -11,25 +11,44 @@
   background-color:  rgba(255, 0, 0, 0.6); 
 
 }
-.Photo{
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.photo{
   filter: brightness(0.3);
-    height: 750px;
-    width: 100%;
-    background: url("background.jpg");
+  height: 780px;
+  width: 100%;
+  background: url("background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+
     
 }
 
-.Name{
+.name{
   font-size: 70px;
   letter-spacing: 2rem;
   color: white;
   z-index: 1000;
-  display: flex;
-  flex-direction: column;
-
   position: absolute;
-  top: 45%;
-  left: 27%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.subName{
+  font-size: 30px;
+  letter-spacing: 1.5rem;
+  color: white;
+  z-index: 1000;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
 }
 
 .SubName{

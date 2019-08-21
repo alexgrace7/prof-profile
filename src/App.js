@@ -10,8 +10,11 @@ function App() {
 
   return (
   <div>
-      <div className="Photo"/>
-      <div className="Name"> Alex Grace </div>
+    <div className="container">
+      <div className="photo"/>
+      <div className="name"> ALEX GRACE </div>
+      <div className = "subName"> SOFTWARE AS AN ART</div>
+    </div>
       <div className="App">
 
         <div className="AboutTitle ColorOne"> Who Am I?</div>
