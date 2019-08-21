@@ -1,1 +1,4 @@
-Professional Website In Progress
+Professional Website 
+
+npm i 
+npm start 
