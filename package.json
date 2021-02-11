@@ -7,6 +7,7 @@
     "react": "^16.8.6",
     "react-awesome-slider": "^1.0.1",
     "react-dom": "^16.8.6",
+    "react-flexible-sliding-menu": "^0.1.9",
     "react-scripts": "3.0.1",
     "yarn": "^1.17.3"
   },

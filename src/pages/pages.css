@@ -1,0 +1,61 @@
+:root {
+  /* Colors: */
+  --primary-color: #7ca1ec;
+}
+
+
+.containerOne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+/* ------------------------------------------ HOME -------------- */
+
+.headline { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+}
+
+.name {
+  font-size: 4rem;
+  letter-spacing: 2rem;
+  font-weight: 800;
+  color: #000;
+}
+
+.subName {
+  font-size: 2rem;
+  letter-spacing: 1rem;
+  color: var(--primary-color);
+  margin-top: 2rem;
+  background-color: #eef2f7;
+  padding: 15px 30px ;
+  border-radius: 15px;
+  border: 1px solid #b8cde9;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .name {
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-weight: 800;
+    color: #000;
+  }
+
+  .subName {
+    font-size: 20px;
+    letter-spacing: 0.5rem;
+    margin-top: 1rem;
+  }
+
+}
